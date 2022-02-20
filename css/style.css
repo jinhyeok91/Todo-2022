@@ -46,7 +46,7 @@ body img {
 
 #clock {
   display: flex;
-  font-size: 8vw;
+  font-size: 6vw;
   margin-top: 10vh;
 }
 
@@ -58,7 +58,7 @@ body img {
   padding: 1.8vw;
   background-color: rgba(255, 255, 255, 0.3);
   display: flex;
-  font-size: 1.8vw;
+  font-size: 1.3vw;
   flex-direction: column;
 }
 
@@ -72,7 +72,8 @@ body img {
   font-size: 1.3vw;
 }
 
-.boxtodo {
+.boxtodo,
+#nameQ {
   border: none;
   border-bottom: solid 2px black;
   background: transparent;
@@ -80,6 +81,18 @@ body img {
   font-size: 2vw;
 }
 
+#nameQ {
+  margin-top: 5vh;
+}
+#loginbutton {
+  width: 5vw;
+  height: 1.5vw;
+  border-radius: 12%;
+  background-color: rgb(94, 168, 233, 0.5);
+}
+#nameQ::placeholder {
+  color: black;
+}
 .boxtodo::placeholder {
   color: black;
 }
