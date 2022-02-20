@@ -8,6 +8,12 @@
 .hidden {
   display: none;
 }
+#weather {
+  margin: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 img {
   position: absolute;
